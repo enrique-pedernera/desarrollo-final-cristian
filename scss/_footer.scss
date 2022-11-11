@@ -1,0 +1,20 @@
+.pie-de-pagina{
+    background-color: rgb(196, 111, 196);
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem;
+    
+
+}
+
+.pie-de-pagina p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align:center;
+    grid-area: copy;
+
+}
+ .pie-de-pagina :hover{
+     color: blue;
+ }

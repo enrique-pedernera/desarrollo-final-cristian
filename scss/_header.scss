@@ -1,0 +1,47 @@
+
+.Encabezado {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+.encabezado-img{ 
+     width:10%;
+     display: inline-block;
+    margin-top:1rem;
+    
+}
+nav{
+    display: inline-block;
+    width: 70%;
+    
+ }
+
+
+.navbar{ 
+    list-style: none;
+    
+     }
+
+
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100px;
+    text-decoration: none;
+
+ }
+nav ul li { 
+    list-style-type:none;
+    background-color: rgb(195, 162, 227);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+ }
+
+nav ul li a { 
+    text-decoration: none;
+}

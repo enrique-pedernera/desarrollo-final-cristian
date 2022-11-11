@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+.Encabezado {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.encabezado-img{
+     width: 10%;
+     display: inline-block;
+    margin-top: 1rem;
+    
+    
+}
+.imagen-centro{
+    display: flex;
+    border-style: double;
+    color: rgb(25, 5, 44);
+    width: 50%;
+    height:20%;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+
+}
+nav{
+    display: inline-block;
+    width: 70%;
+    
+
+}
+
+.navbar{
+    list-style: none;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100px;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type:none;
+    background-color: rgb(195, 162, 227);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+ 
+
+
+.contenedor-viajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+
+}
+
+
+
+.card {
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.card img {
+    width: 100%;
+}
+    
+
+    
+.principal {
+    background-color:rgb(210, 164, 210);
+    
+    
+}
+
+
+.pie-de-pagina{
+    background-color: rgb(196, 111, 196);
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    padding: 1rem;
+    
+
+}
+
+.pie-de-pagina p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align:center;
+    grid-area: copy;
+
+}
+ .pie-de-pagina :hover{
+     color: blue;
+ }
+
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-img{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:200px;
+    width:80%;
+    grid-gap:1rem;
+     
+
+}
+
+.contenedor-img img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+
+
+
